@@ -8,49 +8,49 @@ import { Componente6 } from "./Componente6"
 
 export const Navigation = () => {
   return (
-    <div>
+    <div className="container mt-4 father">
 
-      <Link to ="/componente1">
-        <figure>
-            <Componente1/>
-            <figcaption>Coveñas1</figcaption>
+      <Link to ="/componente1"className='links'>
+      <figure className="image-size">
+                    <Componente1/>
+            <figcaption>Xbox</figcaption>
 
         </figure>
       </Link>
 
-      <Link to ="/componente2">
-        <figure>
-            <Componente2/>
-            <figcaption>Coveñas2</figcaption>
+      <Link to ="/componente2"className='links'>
+      <figure className="image-size">
+                    <Componente2/>
+            <figcaption>PS4</figcaption>
         </figure>
       </Link>
 
-      <Link to ="/componente3">
-        <figure>
-            <Componente3/>
-            <figcaption>Coveñas3</figcaption>
+      <Link to ="/componente3"className='links'>
+      <figure className="image-size">
+                    <Componente3/>
+            <figcaption>Switch</figcaption>
         </figure>
       </Link>
 
 
-      <Link to ="/componente4">
-        <figure>
-            <Componente4/>
-            <figcaption>Coveñas4</figcaption>
+      <Link to ="/componente4"className='links'>
+      <figure className="image-size">
+                    <Componente4/>
+            <figcaption>Steam deck</figcaption>
         </figure>
       </Link>
 
-      <Link to ="/componente5">
-        <figure>
-            <Componente5/>
-            <figcaption>Coveñas5</figcaption>
+      <Link to ="/componente5"className='links'>
+      <figure className="image-size">
+                    <Componente5/>
+            <figcaption>Gamer Phoene</figcaption>
         </figure>
       </Link>
 
-      <Link to ="/componente6">
-        <figure>
-            <Componente6/>
-            <figcaption>Coveñas6</figcaption>
+      <Link to ="/componente6"className='links'>
+      <figure className="image-size">
+                    <Componente6/>
+            <figcaption>PC GAMER  </figcaption>
         </figure>
       </Link>
     </div>

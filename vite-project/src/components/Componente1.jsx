@@ -1,10 +1,17 @@
-import covenas1 from '../assets/img/covenas1.jpg'
-export const Componente1 = () => {
+import XBOX from '../assets/img/XBOX.jfif'
+import PropTypes from 'prop-types';
+
+export const Componente1 = ( {className}) => {
   return (
-    <div>
-      <h1>Textp coponente 1</h1>
-      <img src={covenas1} alt ="Paisaje"/>
+    <div className={`image-container ${className}` }>
+      <img src={XBOX} alt ="XBOX" className="image"/>
     </div>
   )
+}
+
+//todo prop que venga como argumento en la firma del metodo,
+// se debe confgigurar el tipo 
+Componente1.PropTypes ={ 
+  className:PropTypes.string
 }
 

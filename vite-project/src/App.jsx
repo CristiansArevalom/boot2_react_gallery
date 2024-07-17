@@ -14,19 +14,21 @@ function App() {
     <>
     
     <BrowserRouter>
+      <div>
+          <h1 id="title" className="text-center my-3">Proyecto Galeria</h1>
+      </div>
       <Routes>
-        <Route path='/componente1' element={<Componente1/>}/>
-        <Route path='/componente2' element={<Componente2/>}/>
-        <Route path='/componente3' element={<Componente3/>}/>
-        <Route path='/componente4' element={<Componente4/>}/>
-        <Route path='/componente5' element={<Componente5/>}/>
-        <Route path='/componente6' element={<Componente6/>}/>
+        <Route path='/componente1' element={<Componente1 className='image-size'/>}/>
+        <Route path='/componente2' element={<Componente2 className='image-size'/>}/>
+        <Route path='/componente3' element={<Componente3 className='image-size'/>}/>
+        <Route path='/componente4' element={<Componente4 className='image-size'/>}/>
+        <Route path='/componente5' element={<Componente5 className='image-size'/>}/>
+        <Route path='/componente6' element={<Componente6 className='image-size'/>}/>
       </Routes>
+      <div className = 'container'>
       <Navigation/>
+      </div>
     </BrowserRouter>
-
-
-
     </>
   )
 }
