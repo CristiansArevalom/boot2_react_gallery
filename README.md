@@ -62,8 +62,6 @@ La galería muestra las imágenes en la parte superior, cuando se hace clic sobr
 > [!TIP]
 > ¡Si te gustó este proyecto, puedes dejarme una estrella en el repositorio! 🌟
 
-En caso que estés interesad@ en contribuir al proyecto para hacer mejoras, puedes solicitarme unirte al repositorio como contribuidor, enviándome un correo a inesmaoh@gmail.com
-
 > [!NOTE]
 > Por favor, sigue las guías de contribución y buenas prácticas antes de enviar un Pull Request.
 
