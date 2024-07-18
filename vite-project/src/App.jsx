@@ -17,6 +17,7 @@ function App() {
       <div>
           <h1 id="title" className="text-center my-3">Proyecto Galeria</h1>
       </div>
+      <div id='main-img-container' className='container'>
       <Routes>
         <Route path='/componente1' element={<Componente1 className='image-size'/>}/>
         <Route path='/componente2' element={<Componente2 className='image-size'/>}/>
@@ -25,6 +26,7 @@ function App() {
         <Route path='/componente5' element={<Componente5 className='image-size'/>}/>
         <Route path='/componente6' element={<Componente6 className='image-size'/>}/>
       </Routes>
+      </div>
       <div className = 'container'>
       <Navigation/>
       </div>
